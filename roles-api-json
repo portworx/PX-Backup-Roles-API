@@ -50,7 +50,20 @@
             "required": false,
             "description": "",
             "schema": {
-              "type": "object"
+              "type": "object",
+"properties":{
+	"id": 0,
+	"org_id": "default",
+	"description": "test",
+	"rules": [{
+		"apis": ["inspect*", "enumerate*"],
+		"services": ["schedulepolicy", "rules", "role"]
+	}, {
+		"apis": ["*"],
+		"services": ["cloudcredential", "backuplocation"]
+	}],
+	"name": "test"
+},
             }
           }
         ],
