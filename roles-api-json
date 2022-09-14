@@ -271,7 +271,10 @@
           {
             "name": "Content-Type",
             "in": "header",
-            "required": true,
+            "required": false,
+            "enum": [
+              "application/json"
+            ],
             "type": "string",
             "description": ""
           },
@@ -288,6 +291,14 @@
             "required": false,
             "description": "",
             "schema": {
+              "example": {
+                "roles": [
+                  {
+                    "id": "41ba5fb0-66b2-48ac-a986-9714b4a4498f",
+                    "name": "test"
+                  }
+                ]
+              },
               "type": "object"
             }
           }
