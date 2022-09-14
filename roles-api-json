@@ -271,10 +271,7 @@
           {
             "name": "Content-Type",
             "in": "header",
-            "required": false,
-            "enum": [
-              "application/json"
-            ],
+            "required": true,
             "type": "string",
             "description": ""
           },
