@@ -5,7 +5,7 @@
     "title": "PX-Backup Roles",
     "contact": {}
   },
-  "host": "10.13.8.60:30542",
+  "host": "<IP>:<Port>",
   "basePath": "/",
   "securityDefinitions": {},
   "schemes": [
